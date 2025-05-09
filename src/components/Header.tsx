@@ -32,8 +32,8 @@ const Header = () => {
     >
       <div className="container mx-auto flex justify-between items-center px-4">
         <div className="flex items-center space-x-2">
-          <Gavel className="h-8 w-8 text-gold" />
-          <span className="font-playfair font-bold text-2xl text-navy">Previdência Expert</span>
+          <Gavel className="h-8 w-8 text-maroon" />
+          <span className="font-playfair font-bold text-2xl text-navy">Rufino Advocacia</span>
         </div>
         
         {/* Desktop Navigation */}
@@ -42,7 +42,7 @@ const Header = () => {
             <button
               key={item}
               onClick={() => scrollToSection(item)}
-              className="text-navy hover:text-gold font-medium transition-colors duration-300"
+              className="text-navy hover:text-maroon font-medium transition-colors duration-300"
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
             </button>
@@ -78,7 +78,7 @@ const Header = () => {
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
-                className="block w-full text-left py-3 text-navy hover:text-gold font-medium transition-colors duration-300"
+                className="block w-full text-left py-3 text-navy hover:text-maroon font-medium transition-colors duration-300"
               >
                 {item.charAt(0).toUpperCase() + item.slice(1)}
               </button>

@@ -65,10 +65,14 @@
   }
   
   .btn-primary {
-    @apply bg-gold hover:bg-gold-dark text-navy font-bold py-3 px-6 rounded-md transition-all duration-300;
+    @apply bg-maroon hover:bg-maroon-dark text-white font-bold py-3 px-6 rounded-md transition-all duration-300;
   }
   
   .btn-secondary {
-    @apply border-2 border-gold text-navy hover:bg-gold/10 font-bold py-3 px-6 rounded-md transition-all duration-300;
+    @apply border-2 border-maroon text-navy hover:bg-maroon/10 font-bold py-3 px-6 rounded-md transition-all duration-300;
+  }
+
+  .floating-img {
+    @apply transition-all duration-500 hover:translate-y-[-10px];
   }
 }
